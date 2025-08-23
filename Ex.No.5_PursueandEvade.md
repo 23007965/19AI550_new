@@ -36,7 +36,6 @@ To write a program to simulate the process of Pursue and Evade behavior in Unity
 8. Stop the program
 ### PROGRAM
 ```
-```
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
