@@ -4,7 +4,6 @@
 ### AIM: 
 To write a program to pathfinding using AI navigation 
 ### Algorithm:
-
 1. Create a New Unity Project by Open the  Unity Hub and create a new 3D Project,Name the project (e.g., Pathfinding).
 
 2. Set Up the Scene by Create the Ground (Plane or Terrain)
