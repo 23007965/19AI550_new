@@ -4,7 +4,7 @@
 ### AIM: 
 To write a program to pathfinding using AI navigation 
 ### Algorithm:
-```
+
 1. Create a New Unity Project by Open the  Unity Hub and create a new 3D Project,Name the project (e.g., Pathfinding).
 2. Set Up the Scene by Create the Ground (Plane or Terrain)
   Go to: GameObject → 3D Object → Plane and Rename: "Ground"  Scale it: (10, 1, 10) (or adjust as needed)
@@ -26,7 +26,7 @@ Select an Obstacle (Cube)
 Go to: Inspector → Add Component → NavMeshObstacle and Check: ✅ "Carve"
 10.Move the Obstacle with Code ( attach it with Obstacle) 
 11. Run the program
-```  
+
 ### Program:
 ```
 using System.Collections;
@@ -51,6 +51,8 @@ public class AIPathfinder : MonoBehaviour
         agent.SetDestination(target.position);
     }
 }
+```
+```
 #Moving Obstacle
 using System.Collections;
 using System.Collections.Generic;
