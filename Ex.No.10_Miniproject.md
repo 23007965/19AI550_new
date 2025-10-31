@@ -8,11 +8,7 @@ To develop a game -------------------------in Unity
 1.
 ```  
 ### Program:
-```
-```
-### Output:
-
-#### Camera Follow
+#### Camera Follow.cs
 ```csharp
 using System.Collections;
 using System.Collections.Generic;
@@ -34,7 +30,7 @@ public class CameraFollow : MonoBehaviour
     }
 }
 ```
-#### Player Movement
+#### Player Movement.cs
 ```csharp
 using UnityEngine;
 using System.Collections;
@@ -137,7 +133,7 @@ public class PlayerMovement : MonoBehaviour
 
 }
 ```
-#### Player Health
+#### Player Health.cs
 ```csharp
 using System.Collections;
 using System.Collections.Generic;
@@ -179,7 +175,7 @@ public class PlayerHealth : MonoBehaviour
 }
 ```
 
-#### Collector
+#### Collector.cs
 
 ```csharp
 using System.Collections;
@@ -234,5 +230,7 @@ public class Finish : MonoBehaviour
 }
 
 ```
+### Output:
+
 ### Result:
 Thus the game was developed using Unity and adopted _-----------AI technology.
