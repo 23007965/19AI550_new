@@ -3,13 +3,14 @@
 ### REGISTER NUMBER : 
 ### AIM: 
 To develop a game -------------------------in Unity 
+
 ### Algorithm:
 
 1. Setup the Scene
-   ```
+   
     -Open Unity Hub and create a new 2D project.
     -Name the project (for example: "PlatformRunnerGame").​
-   ```
+   
 3. Import Assets from Store
     -Go to the Unity Asset Store and import pixel-art backgrounds, tilesets, characters, items, traps, and UI elements needed for your game.​
 
