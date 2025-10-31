@@ -6,21 +6,22 @@ To develop a game -------------------------in Unity
 ### Algorithm:
 
 1. Setup the Scene
+   ```
     -Open Unity Hub and create a new 2D project.
     -Name the project (for example: "PlatformRunnerGame").​
-
-2. Import Assets from Store
+   ```
+3. Import Assets from Store
     -Go to the Unity Asset Store and import pixel-art backgrounds, tilesets, characters, items, traps, and UI elements needed for your game.​
 
-3. Create Main Screens and Levels
+4. Create Main Screens and Levels
     -In the "Scenes" folder, create the following scenes: MainMenu, Level1, Level2, EndScreen.​
     -For each scene, design the level layout using imported assets.​
 
-4. Player Character Creation
+5. Player Character Creation
     -In each level’s Hierarchy, add your main player sprite.
     -Set the starting position for the player (e.g., at the far left platform).​
 
-5. Add Collectible Items
+6. Add Collectible Items
     -In your hierarchy, add collectible items (such as melons) at various strategic locations in the level.
     -Make sure each collectible has a collider and is set up to interact with the player.​
 
