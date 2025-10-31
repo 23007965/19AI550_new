@@ -6,40 +6,41 @@ To develop a game -------------------------in Unity
 
 ### Algorithm:
 1.	Setup the Scene
-   o	Open Unity Hub and create a new 2D project.
-   o	Name the project (for example: "PlatformRunnerGame").
+o	Open Unity Hub and create a new 2D project.
+o	Name the project (for example: "PlatformRunnerGame").
 2.	Import Assets from Store
-   o	Go to the Unity Asset Store and import pixel-art backgrounds, tilesets, characters, items, traps, and UI elements needed for your game.
+o	Go to the Unity Asset Store and import pixel-art backgrounds, tilesets, characters, items, traps, and UI elements needed for your game.
 3.	Create Main Screens and Levels
-   o	In the "Scenes" folder, create the following scenes: MainMenu, Level1, Level2, EndScreen.
-   o	For each scene, design the level layout using imported assets.
+o	In the "Scenes" folder, create the following scenes: MainMenu, Level1, Level2, EndScreen.
+o	For each scene, design the level layout using imported assets.
 4.	Player Character Creation
-   o	In each level’s Hierarchy, add your main player sprite.
-   o	Set the starting position for the player (e.g., at the far left platform).
+o	In each level’s Hierarchy, add your main player sprite.
+o	Set the starting position for the player (e.g., at the far left platform).
 5.	Add Collectible Items
-   o	In your hierarchy, add collectible items (such as melons) at various strategic locations in the level.
-   o	Make sure each collectible has a collider and is set up to interact with the player.
+o	In your hierarchy, add collectible items (such as melons) at various strategic locations in the level.
+o	Make sure each collectible has a collider and is set up to interact with the player.
 6.	Add Hazards and Moving Traps
-   o	Place traps such as saws or spikes in the scene using sprites from the asset store.
-   o	Attach movement scripts (e.g., for saws/platforms) as needed for dynamic hazards.
+o	Place traps such as saws or spikes in the scene using sprites from the asset store.
+o	Attach movement scripts (e.g., for saws/platforms) as needed for dynamic hazards.
 7.	Create Level Completion and UI
-   o	Place a finish flag or endpoint at the end of each level.
-   o	Design the UI to display the collectible count and player status.
-   o	On MainMenu, add a "PLAY" button. On EndScreen, add "QUIT" and show a completion message.
+o	Place a finish flag or endpoint at the end of each level.
+o	Design the UI to display the collectible count and player status.
+o	On MainMenu, add a "PLAY" button. On EndScreen, add "QUIT" and show a completion message.
 8.	Apply Scripts
-   o	Create scripts for PlayerMovement, CameraFollow, Collector (for collectible logic), GameManager (for switching scenes), PlayerHealth (for resets when hit by trap), and Finish (for level completion).
-   o	Attach relevant scripts to objects (player, hazards, collectibles, flag) in the Inspector.
+o	Create scripts for PlayerMovement, CameraFollow, Collector (for collectible logic), GameManager (for switching scenes), PlayerHealth (for resets when hit by trap), and Finish (for level completion).
+o	Attach relevant scripts to objects (player, hazards, collectibles, flag) in the Inspector.
 9.	Connect Scene Transitions
-   o	Configure GameManager or similar script so that:
-   o	Clicking "PLAY" loads Level1.
-   o	Reaching the flag loads the next level (Level2).
-   o	Completing Level2 loads EndScreen and activates the completion UI.
+o	Configure GameManager or similar script so that:
+	Clicking "PLAY" loads Level1.
+	Reaching the flag loads the next level (Level2).
+	Completing Level2 loads EndScreen and activates the completion UI.
 10.	Test the Game
-   o	Click Play in Unity Editor.
-   o	Collect items and avoid traps; ensure hitting a trap or falling resets the player to the level start.
-   o	Confirm collectible counter UI updates, menu transitions, and level completions work as intended.
+o	Click Play in Unity Editor.
+o	Collect items and avoid traps; ensure hitting a trap or falling resets the player to the level start.
+o	Confirm collectible counter UI updates, menu transitions, and level completions work as intended.
 11.	Stop the Game Play
-   o	After testing, stop the game in Unity Editor.
+o	After testing, stop the game in Unity Editor.
+
 
 
 ### Program:
