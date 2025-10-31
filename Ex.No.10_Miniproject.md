@@ -236,7 +236,7 @@ public class PlayerHealth : MonoBehaviour
     }
 }
 ```
-#### Game Man
+#### Game Manager.cs
 ```csharp
 using System.Collections;
 using System.Collections.Generic;
