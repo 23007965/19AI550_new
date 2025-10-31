@@ -208,5 +208,31 @@ public class Collector : MonoBehaviour
 }
 
 ```
+#### Finish.cs
+```csharp
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class Finish : MonoBehaviour
+{
+    [SerializeField] AudioSource winAudio;
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.gameObject.tag == "Player")
+        {
+            Invoke("NextLevel", 1.25f);
+            winAudio.Play();
+        }
+    }
+
+    void NextLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+}
+
+```
 ### Result:
 Thus the game was developed using Unity and adopted _-----------AI technology.
