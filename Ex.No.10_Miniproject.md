@@ -46,13 +46,24 @@ o	Clicking "PLAY" loads Leve1.
 o	Reaching the flag loads the next level (Leve2).
 
 o	Completing Leve2 loads EndScreen and activates the completion UI.
-#### 10.	Test the Game
+#### 10. Add Audio Effects and Background Music
+o Import audio resources for the background, player jump, item collection, and finish line.
+
+o Set up background music with looping, start on awake.
+
+o Play jump sound in PlayerMovement script when jump triggered.
+
+o Play collectible sound on item pickup event.
+
+o Play finish sound in level complete/flag script.
+
+#### 11.	Test the Game
 o	Click Play in Unity Editor.
 
 o	Collect items and avoid traps; ensure hitting a trap or falling resets the player to the level start.
 
 o	Confirm collectible counter UI updates, menu transitions, and level completions work as intended.
-#### 11.	Stop the Game Play
+#### 12.	Stop the Game Play
 o	After testing, stop the game in Unity Editor.
 
 
