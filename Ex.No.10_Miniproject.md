@@ -177,6 +177,35 @@ public class PlayerHealth : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
+```
+
+#### Collector
+
+```csharp
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class Collector : MonoBehaviour
+{
+    [SerializeField] private Text countText;
+    [SerializeField] private AudioSource collectAudio;
+    private int countPine = 0;
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "fruit")
+        {
+            if (collectAudio != null)
+                collectAudio.Play();
+            countPine++;
+            if (countText != null)
+                countText.text = "PINE : " + countPine;
+            Destroy(other.gameObject);
+        }
+    }
+}
 
 ```
 ### Result:
