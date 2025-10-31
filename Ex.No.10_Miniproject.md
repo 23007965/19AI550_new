@@ -1,8 +1,9 @@
-# Ex.No: 10  Implementation of 2D/3D game -------------------
-### DATE:                                                                            
-### REGISTER NUMBER : 
+# Ex.No: 10  Implementation of 2D/3D  platform runner game 
+### DATE:  3.11.2025                                                                          
+### REGISTER NUMBER : 212223230145
 ### AIM: 
-To develop a game -------------------------in Unity 
+
+To develop a 2D platform runner game in Unity using basic game components and AI-enhanced scripting.
 
 ### Algorithm:
 
@@ -302,4 +303,5 @@ public class Finish : MonoBehaviour
 <img width="1088" height="528" alt="image" src="https://github.com/user-attachments/assets/7f2bb11a-1bf6-4728-bd14-46649ec54592" />
 
 ### Result:
-Thus the game was developed using Unity and adopted _-----------AI technology.
+
+Thus, the 2D platform runner game was successfully developed using Unity and adopted AI technology for features like collectible tracking, hazard avoidance logic, and dynamic scene transitions to improve player experience and engagement.
