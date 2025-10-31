@@ -5,6 +5,7 @@
 To develop a game -------------------------in Unity 
 
 ### Algorithm:
+
 #### 1.	Setup the Scene
 o	Open Unity Hub and create a new 2D project.
 o	Name the project (for example: "PlatformRunnerGame").
