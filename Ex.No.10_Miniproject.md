@@ -5,7 +5,6 @@
 To develop a game -------------------------in Unity 
 
 ### Algorithm:
-
 1.	Setup the Scene
    o	Open Unity Hub and create a new 2D project.
    o	Name the project (for example: "PlatformRunnerGame").
@@ -32,9 +31,9 @@ To develop a game -------------------------in Unity
    o	Attach relevant scripts to objects (player, hazards, collectibles, flag) in the Inspector.
 9.	Connect Scene Transitions
    o	Configure GameManager or similar script so that:
-   	Clicking "PLAY" loads Level1.
-   	Reaching the flag loads the next level (Level2).
-   	Completing Level2 loads EndScreen and activates the completion UI.
+   o	Clicking "PLAY" loads Level1.
+   o	Reaching the flag loads the next level (Level2).
+   o	Completing Level2 loads EndScreen and activates the completion UI.
 10.	Test the Game
    o	Click Play in Unity Editor.
    o	Collect items and avoid traps; ensure hitting a trap or falling resets the player to the level start.
