@@ -282,5 +282,13 @@ public class Finish : MonoBehaviour
 ```
 ### Output:
 
+<img width="1097" height="523" alt="image" src="https://github.com/user-attachments/assets/29283d4d-1bfd-40ac-9573-518f80ac42dc" />
+
+<img width="1102" height="504" alt="image" src="https://github.com/user-attachments/assets/c356bc5b-e5dc-48ef-a470-a61652c9c821" />
+
+<img width="1095" height="500" alt="image" src="https://github.com/user-attachments/assets/5e7e9070-b485-43f6-a39e-84bd3e0f05ea" />
+
+<img width="1088" height="528" alt="image" src="https://github.com/user-attachments/assets/7f2bb11a-1bf6-4728-bd14-46649ec54592" />
+
 ### Result:
 Thus the game was developed using Unity and adopted _-----------AI technology.
