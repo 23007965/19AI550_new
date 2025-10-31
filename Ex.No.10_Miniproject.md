@@ -36,7 +36,7 @@ To develop a game -------------------------in Unity
     -On MainMenu, add a "PLAY" button. On EndScreen, add "QUIT" and show a completion message.​
 
 8. Apply Scripts
-    -create scripts for PlayerMovement, CameraFollow, Collector (for collectible logic), GameManager (for switching scenes), PlayerHealth (for resets when hit by trap), and Finish (for          level completion).​
+    -create scripts for PlayerMovement, CameraFollow, Collector (for collectible logic), GameManager (for switching scenes), PlayerHealth (for resets when hit by trap), and Finish (for level completion).​
     -Attach relevant scripts to objects (player, hazards, collectibles, flag) in the Inspector.
 
 9. Connect Scene Transitions
